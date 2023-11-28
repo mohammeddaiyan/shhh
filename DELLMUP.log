@@ -1,0 +1,110 @@
+======================================================================================================================================
+                   Realtek High Definition Audio Driver
+======================================================================================================================================
+Command : "C:\ProgramData\Dell\drivers\Audio_Driver_DFR6K_WN32_6.0.1.6098_A12\DELLMUP.exe" /v" LOGFILE="C:\ProgramData\dell\drivers\Audio_Driver_DFR6K_WN32_6.0.1.6098_A12\DUPCF14.tmp""
+Date : 2023-1-7  11:51:2.984
+User : User 
+======================================================================================================================================
+Starting to get initial ...
+[OS] : 10.0
+    -Build : 19041
+    -Service Pack : 0
+    -x64 system : 1
+    -MCE system : 0
+    -Server system : 0
+    -System Language ID : 0x0409
+    -User Language ID : 0x0409
+[Default Path] :
+    -tcRtkTempDir : C:\ProgramData\Dell\drivers\Audio_Driver_DFR6K_WN32_6.0.1.6098_A12
+    -tcISSetupLocation : C:\ProgramData\Dell\drivers\Audio_Driver_DFR6K_WN32_6.0.1.6098_A12
+
+Collecting inventory ...
+Checking driver version ...
+    [Realtek Audio Driver for DELL MUP Package]
+       MUP Package Version : 6.0.1.6098
+
+C:\ProgramData\Dell\drivers\Audio_Driver_DFR6K_WN32_6.0.1.6098_A12\RealtekHDAudio\Vista64\RTDVHD64.sys
+    [Realtek HD Audio Driver]
+        Installed version : 
+        Package version : 6.0.1.6098
+
+Executing update ...    [2023-1-7  11:51:2.999]
+    Run Setup Command : C:\ProgramData\Dell\drivers\Audio_Driver_DFR6K_WN32_6.0.1.6098_A12\RealtekHDAudio\Setup.exe  /z[-rpC:\ProgramData\Dell\drivers\Audio_Driver_DFR6K_WN32_6.0.1.6098_A12\RHDSetup.log]
+
+    -------- Realtek Installer response : C:\ProgramData\Dell\drivers\Audio_Driver_DFR6K_WN32_6.0.1.6098_A12\RHDSetup.log --------
+[ResponseResult]
+ResultCode=0
+[Install Progress]
+ Confirm Realtek Driver 
+ Check Operation System Version 
+ OS Information [WINMAJOR Number] = 10
+ OS Information [WINMAJOR String] = 10.0
+ OS Information [SYSINFO.nWinMajor] = 10
+ OS Information [SYSINFO.nWinMinor] = 0
+ OS Information [IsWin2000] = 0
+ OS Information [IsWinXP] = 0
+ OS Information [IsWin2003] = 0
+ OS Information [IsVista] = 0
+ OS Information [IsWin2008] = 0
+ OS Information [IsWin7] = 0
+ OS Information [IsWin8] = 0
+ OS Information [IsWin8.1] = 0
+ OS Information [IsWin10] = 1
+ OS Information [IsWin2008R2x64] = 0
+ OS Information [IsMCE] = 0
+ OS Information [IsServer] = 0
+ OS Information [Service Pack] = 0
+ OS Information [x64] = 1
+ Operation System was Windows x64
+ Rtlupd [GetRtlupdForPackage] = 1
+ Rtlupd version [C:\ProgramData\Dell\drivers\Audio_Driver_DFR6K_WN32_6.0.1.6098_A12\RealtekHDAudio\Vista64\RtlUpd64.exe] = 3.0.0.0
+ Rtkupd version [\] = 
+ Current use Rtlupd version [C:\ProgramData\Dell\drivers\Audio_Driver_DFR6K_WN32_6.0.1.6098_A12\RealtekHDAudio\Vista64\RtlUpd64.exe] = 3.0.0.0
+ Default Path [WDMDir] = Vista64
+ Default Path [RtkAudioDir] = C:\Program Files (x86)\Realtek\Audio
+ Default Path [RtkAudioDir x64] = C:\Program Files\Realtek\Audio
+ Default Path [RtlTempDir] = C:\Program Files (x86)\Realtek\Audio\Drivers
+ Default Path [RtkHDADrvDir] = C:\Program Files (x86)\Realtek\Audio\Drivers\Vista64
+ Default Path [RtkHDMIDrvDir] = C:\Program Files (x86)\Realtek\Audio\Drivers\HDMI\XP2K
+ Default Path [RtlPFHDADir] = C:\Program Files\Realtek\Audio\HDA
+ Default Path [USBDrvDir] = C:\ProgramData\Dell\drivers\Audio_Driver_DFR6K_WN32_6.0.1.6098_A12\RealtekHDAudio\USBAud
+ Default Path [RtkUSBDrvDir] = C:\Program Files (x86)\Realtek\Audio\USBAud\Driver
+ Default Path [RtkIntelHDASSTPath] = C:\Program Files (x86)\Realtek\Audio\Drivers\IntelHDASST
+ Default Registry key [Installer Base Key] = SOFTWARE\Realtek\Audio\Installer
+ Current driver version = RD3.38
+ 
+ Realtek HD Audio Driver Vista64 Directory Exist .
+ Waves Application Directory Exist 
+ Status - OnMoveData
+ Status - ProgramFiles_Installing
+ delete C:\Program Files (x86)\Realtek\Audio\Drivers\Vista64
+ Copy Realtek HD Audio Driver from Vista64 Directory
+ Run RtlUpd64.exe : C:\Program Files (x86)\Realtek\Audio\Drivers\RtlUpd64.exe --- > -s -cb -nrg2709 (TRUE)
+ Status - ProgramFiles_Installed
+ Copy .dat and .ini files
+ Install Realtek HD Audio Audio Driver 
+ Run RtlUpd64.exe : C:\Program Files (x86)\Realtek\Audio\Drivers\RtlUpd64.exe --- > -u  -s -frbd -fi -nrg2709 (TRUE)
+ -->Realtek HD Audio - SetupAPI result LAAW_PARAMETERS.nLaunchResult = -4
+ Special registry for hard-coding
+ Status - OnFirstUIAfter
+ Installer will reboot system : WILL_REBOOT
+ Installer - OnEnd
+
+    -------- Realtek Installer response end --------
+
+Execution update completed    [2023-1-7  11:52:48.833]
+MUP will restart system after installer completed .
+======================================================================================================================================
+
+[Update Result]...
+    Update ready to be applied at reboot .
+    Rtk Code = 0x00000000
+    IS Code = 0x00000000
+    Install Result = 1
+    UPD execution code = -4
+    USB UPD execution code = 
+    SetupAPI running code = 
+
+Exit Code = 1641 ( Rebooting system )
+======================================================================================================================================
+End : 2023-1-7  11:52:48.833
